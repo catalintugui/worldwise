@@ -7,7 +7,7 @@ function Homepage() {
     <div>
       <PageNav />
       <AppNav />
-      <p>homepage</p>
+      <p className="test">homepage</p>
       <Link to="/app">Go to the app</Link>
     </div>
   );
