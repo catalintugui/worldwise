@@ -18,7 +18,6 @@ import styles from "./Map.module.css";
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([44.43, 26.09]);
-  const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
